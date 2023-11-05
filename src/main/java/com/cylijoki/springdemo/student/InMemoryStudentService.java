@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service()
 public class InMemoryStudentService implements StudentService {
 
     private final InMemoryStudentDOA DOA;
